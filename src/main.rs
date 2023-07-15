@@ -5,7 +5,7 @@ fn main() {
     let dic_file = "./ejdic-hand-txt/ejdict-hand-utf8.txt";
     let args: Vec<String> = env::args().collect();
     if args.len() < 2 {
-        println!("[Usage] english_dictionary word");
+        println!("[Usage] jisho word");
         return;
     }
 
